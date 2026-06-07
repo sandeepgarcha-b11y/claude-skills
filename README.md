@@ -1,20 +1,68 @@
-# claude-skills
+# AI-Native Product Management
 
-A portable, company-agnostic suite of reusable Claude Skills for product
-management. Every skill collects its workspace-specific context (Jira keys,
-Slack channels, event names, KPIs, date ranges) at runtime — nothing is
-hardcoded — so the set drops into any workspace.
+A collection of reusable AI workflows that automate and augment common product management activities.
+
+Instead of using AI as a chat interface, these workflows capture repeatable PM decision-making patterns and turn them into reusable systems.
 
 ## Skills
 
-| Skill | Use when |
-|-------|----------|
-| [`weekly-reporting`](weekly-reporting/SKILL.md) | Writing a weekly product/exec update from Jira and Slack. |
-| [`mixpanel-synthesis`](mixpanel-synthesis/SKILL.md) | Turning Mixpanel funnels, cohorts, or events into product insight. |
-| [`hypothesis-generator`](hypothesis-generator/SKILL.md) | Turning a problem statement into ranked, testable hypotheses. |
-| [`experiment-review`](experiment-review/SKILL.md) | Reading out an A/B test and recommending ship / iterate / kill. |
-| [`customer-feedback-synthesis`](customer-feedback-synthesis/SKILL.md) | Synthesising qualitative feedback into themes and actions. |
+### 📈 Experiment Review
+Turn A/B test results into clear product recommendations.
 
-Each skill follows the same shape: an `Intake` step that asks for missing
-context, a standard `Output format`, and `Guardrails` against vague or
-overconfident answers.
+- Evaluate signal quality
+- Identify risks and caveats
+- Recommend next actions
+
+### 🔍 Analytics Synthesis
+Convert behavioural data into actionable insights.
+
+- Funnel analysis
+- Segmentation
+- Trend identification
+- Opportunity discovery
+
+### 💡 Hypothesis Generation
+Generate measurable, testable product hypotheses.
+
+- Discovery support
+- Experiment ideation
+- Prioritisation frameworks
+
+### 🗣️ Customer Feedback Synthesis
+Transform qualitative feedback into product opportunities.
+
+- Theme extraction
+- Signal vs noise detection
+- Actionable recommendations
+
+### 📝 Weekly Reporting
+Produce concise stakeholder updates from multiple sources.
+
+- Progress tracking
+- Risk management
+- Decision escalation
+- Executive summaries
+
+## Design Principles
+
+All workflows are:
+
+- Portable across organisations
+- Human-in-the-loop by design
+- Evidence-led
+- Explicit about uncertainty
+- Optimised for decision-making, not content generation
+
+## What This Demonstrates
+
+This repository reflects how I think about AI-native product management:
+
+- Building systems instead of prompts
+- Scaling product judgement through AI
+- Designing human + AI workflows
+- Applying AI to real operational problems
+- Productising repeatable decision-making
+
+---
+
+**Current focus:** experimentation, analytics, customer insight, operational reporting, and AI-assisted product discovery.
